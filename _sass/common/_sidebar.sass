@@ -1,0 +1,47 @@
+// # Breakpoints
+$breakpoint-hide-sidebar: 1024px
+$breakpoint-mobile: 767px
+
+// # Sidebar Background Gradient
+$gradient-start: mix($text-color, $header-background, 30%)
+$gradient-end:   mix($text-color, $header-background, 10%)
+$sidebar-left-bg: linear-gradient(136deg, $gradient-start, $gradient-end)
+$sidebar-bg: $header-background
+// $sidebar-left-bg: mix($text-color, $header-background, 30%)
+$sidebar-right-bg: mix($text-color, $header-background, 10%)
+
+// # Sidebar Left
+$sidebar-left-width: 130px
+
+
+// Tags
+$tag-height: 40px
+$tag-font-size: 17px
+$tag-color: $text-color
+$tag-hover-color: rgba(255, 255, 255, .85)
+$tag-active-color: $text-color
+$tag-border-color: $sidebar-right-bg
+
+// # Sidebar Right
+$sidebar-right-width: 300px
+
+
+// Toc
+$toc-color: $text-color
+$toc-bg: $tag-border-color
+
+$toc-font-size: 16px
+$toc-line-height: 22px
+
+$toc-bullet-size: 18px
+$toc-bullet-unread: $gradient-end
+$toc-bullet-read: $toc-color
+
+// # Sidebar width
+$sidebar-width: $sidebar-left-width + $sidebar-right-width
+
+$time-function: cubic-bezier(0.770, 0.000, 0.175, 1.000)
+
+// # Customise webkit scrollbar
+$toc-scrollbar-width: 3px
+$toc-scrollbar-color: $gradient-end

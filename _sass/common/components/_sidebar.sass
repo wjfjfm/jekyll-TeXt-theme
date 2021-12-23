@@ -1,0 +1,95 @@
+// Sidebar Layout
+#sidebar
+  position: absolute
+  top: 0
+  bottom: 0
+  left: -$sidebar-width
+  z-index: 20
+  width: $sidebar-width
+  background-color: $sidebar-bg
+  overflow: hidden
+  transition: left .35s $time-function, transform .35s $time-function
+  user-select: none
+  &-left
+    float: left
+    width: $sidebar-left-width
+    height: 100%
+    background: $sidebar-left-bg
+  &-right
+    float: left
+    width: $sidebar-right-width
+    height: 100%
+    background: $sidebar-right-bg
+  &.open
+    transform: translateX(100%)
+
+
+// Sidebar Left
+#sidebar-tags
+  margin: 0
+  padding: 0
+  list-style: none
+  border-top: 1px solid $tag-border-color
+
+
+.sidebar-tag
+  font-size: $tag-font-size
+  line-height: $tag-height
+  text-align: center
+  color: $tag-color
+  border-bottom: 1px solid $tag-border-color
+  transition: color .15s linear, box-shadow .3s $time-function
+  cursor: pointer
+  &:hover
+    color: $tag-hover-color
+    box-shadow: inset 6px 0 0 $toc-bg
+  &.active
+    color: $tag-active-color
+    box-shadow: inset $sidebar-left-width 0 0 $toc-bg
+
+
+// Sidebar Right
+
+#sidebar-toc
+  height: calc(100%)
+  padding-top: 15px
+  background: $toc-bg
+  overflow-y: auto
+  -webkit-overflow-scrolling: touch
+  &:after
+    content: ""
+    float: left
+    clear: both
+    width: 100%
+    height: 10px
+  &::-webkit-scrollbar
+    width: $toc-scrollbar-width
+  &::-webkit-scrollbar-thumb
+    background: $toc-scrollbar-color
+
+.toc-link
+  position: relative
+  float: left
+  clear: both
+  margin: 5px 0
+  padding: 0 15px 0 32px
+  font-size: $toc-font-size
+  line-height: $toc-line-height
+  white-space: nowrap
+  text-decoration: none
+  text-overflow: ellipsis
+  color: $toc-color !important
+  overflow: hidden
+  outline: none
+  &:before
+    position: absolute
+    top: 2px
+    left: 12px
+    z-index: 1
+    font-size: $toc-bullet-size
+    color: $toc-bullet-unread
+    transition: transform .15s linear
+  &:visited:before
+    color: $toc-bullet-read !important
+  &:hover:before
+    animation: joggle .6s linear

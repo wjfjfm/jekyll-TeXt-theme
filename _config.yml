@@ -80,6 +80,11 @@ license: CC-BY-NC-4.0 # "CC-BY-4.0", "CC-BY-SA-4.0", "CC-BY-NC-4.0", "CC-BY-ND-4
 toc:
   selectors: # "h1,h2,h3" (default)
 
+## NAVIGATOR
+navigator:
+  filter: 'category'
+  recent_num: 20
+
 
 ## => Markdown Enhancements
 ##############################
@@ -181,7 +186,7 @@ analytics:
 ##############################
 markdown    : kramdown
 highlighter : rouge
-permalink   : date
+permalink   : /:year/:month/:day/:title.html
 
 exclude:
   - CHANGELOG.md
@@ -214,6 +219,10 @@ defaults:
       show_edit_on_github: true
       show_subscribe: true
       pageview: true
+  - scope:
+      path: ""
+    values:
+      sidebar: true
 
 
 ## => Plugins
@@ -223,3 +232,5 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jemoji
+
+sidebar: docs
