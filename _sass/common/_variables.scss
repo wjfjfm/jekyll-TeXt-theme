@@ -94,7 +94,8 @@ $layout: (
 $responsive: (
   sm:                      0,
   md:                      500px,
-  lg:                      map-get($layout, content-max-width) + map-get($layout, sidebar-width) + map-get($layout, aside-width)
+  lg:                      map-get($layout, content-max-width) + map-get($layout, sidebar-width),
+  xl:                      map-get($layout, content-max-width) + map-get($layout, sidebar-width) + map-get($layout, aside-width)
 );
 
 $animation: (
