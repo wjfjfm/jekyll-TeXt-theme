@@ -38,7 +38,7 @@ author:
   name      : 王剑锋
   url       : www.jeffreywang.cn
   avatar    : https://avatars.githubusercontent.com/u/24356422 # path or url of avatar image (square)
-  bio       : 
+  bio       :
   email     : me@jeffreywang.cn
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
   twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
@@ -46,16 +46,16 @@ author:
   googleplus: # "user_id"   the last part of your profile url, e.g. https://plus.google.com/u/0/user_id
   telegram  : # "user_name" the last part of your profile url, e.g. https://t.me/user_name
   medium    : # "user_name" the last part of your profile url, e.g. https://medium.com/user_name
-  zhihu     : zhihu.com/people/wjfjfm # "user_name" the last part of your profile url, e.g. https://www.zhihu.com/people/user_name
+  zhihu     : wjfjfm # "user_name" the last part of your profile url, e.g. https://www.zhihu.com/people/user_name
   douban    : # "user_name" the last part of your profile url, e.g. https://www.douban.com/people/user_name
-  linkedin  : https://www.linkedin.cn/injobs/in/%E5%89%91%E9%94%8B-%E7%8E%8B-2144581b3 # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name
-  github    : https://github.com/wjfjfm # "user_name" the last part of your profile url, e.g. https://github.com/user_name
+  linkedin  : 剑锋-王-2144581b3 # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name
+  github    : wjfjfm # "user_name" the last part of your profile url, e.g. https://github.com/user_name
   npm       : # "user_name" the last part of your profile url, e.g. https://www.npmjs.com/~user_name
 
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: https://github.com/wjfjfm/wjfjfm.github.io
+repository: wjfjfm/wjfjfm.github.io
 repository_tree: master
 
 
