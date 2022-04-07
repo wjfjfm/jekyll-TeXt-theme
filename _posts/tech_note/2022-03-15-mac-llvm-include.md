@@ -7,7 +7,7 @@ title: Mac更新CommandLineTools
 
 原生llvm11/clang的include搜索路径：
 
-```
+```shell
 $ echo | clang++ -E -Wp,-v -
 clang -cc1 version 11.0.3 (clang-1103.0.32.62) default target x86_64-apple-darwin20.3.0
 ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
@@ -26,7 +26,7 @@ End of search list.
 
 新安装的llvm12/clang的include搜索路径:
 
-```
+``` shell
 $ echo | /usr/local/Cellar/llvm@12/12.0.1_1/bin/clang++ -E -Wp,-v -
 clang -cc1 version 12.0.1 based upon LLVM 12.0.1 default target x86_64-apple-darwin20.3.0
 ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk/usr/local/include"
@@ -54,7 +54,7 @@ $xcode-select --install
 
 安装完毕后，检查llvm12/clang的include搜索路径就正常了:
 
-```
+``` shell
 $ echo | /usr/local/Cellar/llvm@12/12.0.1_1/bin/clang++ -E -Wp,-v -
 clang -cc1 version 12.0.1 based upon LLVM 12.0.1 default target x86_64-apple-darwin20.3.0
 ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk/usr/local/include"
