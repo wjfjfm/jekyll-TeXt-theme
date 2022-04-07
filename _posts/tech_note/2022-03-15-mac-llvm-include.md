@@ -1,6 +1,6 @@
 ---
-category: 技术随笔
-title: Mac更新CommandLineTools
+category: '技术随笔'
+title: 'Mac更新CommandLineTools'
 ---
 
 通过 `brew install llvm@12` 安装llvm12后，Include搜索路径指向MacOSX11.sdk，但当前只有MacOSX10.sdk, 表现如下：
