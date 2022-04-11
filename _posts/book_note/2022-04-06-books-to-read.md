@@ -24,12 +24,11 @@ title: '[持续更新]读书清单'
   - [https://github.com/wjfjfm/Effective-Cpp-Notes]
 - Redis深度历险
   - 从目录看起来非常诱人
-- 现代C++教程
-  - [https://changkun.de/modern-cpp/zh-cn/00-preface/]
-  - 非常简单明快的C++11/14/17/20新特性指导
-  - 作者是慕尼黑大学在读的研究生，大量参与开源工作
 
 ## 看过的书
 
 - 云原生分布式存储基石--etcd深入解析
   - 一部分讲Raft协议细节和宕机处理，一部分讲etcd概况架构和基准性能，一部分讲运维和安全，最后讲部分模块的内部实现
+- 现代C++教程
+  - [https://changkun.de/modern-cpp/zh-cn/00-preface/]
+  - 非常简单明快的C++11/14/17/20新特性指导
