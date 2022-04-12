@@ -7,6 +7,7 @@ title: '[持续更新]读书清单'
 
 ## 想看的书
 
+- 数据密集型应用设计
 - Linux是怎么工作的
   - 图解linux核心的工作原理
 - More Effective C++
