@@ -16,4 +16,4 @@ category: '姐夫王未来幻想'
 7. SaaS在云服务的基础上兴起，外卖小店逐渐都被整合到了云上
 8. 物品租赁服务空前繁荣，租赁价格低破想象，比如switch游戏机1元一小时，想玩了就租俩小时。租赁商还能有的赚...
 
-![meituan](.assets/meituan.jpeg)
+![meituan](https://github.com/wjfjfm/images/raw/master/meituan.jpeg)
